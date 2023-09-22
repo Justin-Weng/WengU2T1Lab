@@ -8,5 +8,9 @@ public class RectangleRunner {
         // creating ANOTHER instance/object from the Rectangle class
         Rectangle rect2 = new Rectangle(10, 8);
         rect2.printArea();  // calling a method on the object
+
+        // creating ANOTHER instance/object from the Rectangle class
+        Rectangle rect3 = new Rectangle(15, 15);
+        rect3.printArea();  // calling a method on the object
     }
 }
